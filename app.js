@@ -39,7 +39,7 @@ new ImageOption('wine glass', 'img/wine-glass.jpg');
 
 //generates array of three random images
 function randomImages(max){
-  for (var i =0; i<3; i++){
+  for (var i = 0; i < 3; i++){
     displayedImages.push(imagesArray[Math.floor(Math.random() * max)]);
   }
   //compares current array[i] to last shown array, and to the other two positions in the current array, replaces if there is a similarity
