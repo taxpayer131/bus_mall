@@ -16,15 +16,15 @@ function ImageOption(name, path){
   imagesArray.push(this);
 }
 
-new ImageOption('R2D2 luggage', 'img/bag.jpg');
+new ImageOption('R2D2 luggage', 'img/r2d2.jpg');
 new ImageOption('banana slicer', 'img/banana.jpg');
-new ImageOption('bathroom iPad display', 'img/bathroom.jpg');
+new ImageOption('bathroom iPad display', 'img/bathroom_ipad.jpg');
 new ImageOption('boots', 'img/boots.jpg');
 new ImageOption('breakfast', 'img/breakfast.jpg');
 new ImageOption('bubblegum', 'img/bubblegum.jpg');
 new ImageOption('chair', 'img/chair.jpg');
-new ImageOption('cthulhu', 'img/cthulhu.jpg');
-new ImageOption('dog-duck', 'img/dog-duck.jpeg');
+new ImageOption('cthulhu', 'img/monster.jpg');
+new ImageOption('dog-duck', 'img/dog-duck.jpg');
 new ImageOption('dragon', 'img/dragon.jpg');
 new ImageOption('pen', 'img/pen.jpg');
 new ImageOption('pet-sweep', 'img/pet-sweep.jpg');
@@ -35,6 +35,7 @@ new ImageOption('tauntaun', 'img/tauntaun.jpg');
 new ImageOption('unicorn', 'img/unicorn.jpg');
 new ImageOption('usb', 'img/usb.gif');
 new ImageOption('water-can', 'img/water-can.jpg');
+new ImageOption('wine glass', 'img/wine-glass.jpg');
 
 //generates array of three random images
 function randomImages(max){
