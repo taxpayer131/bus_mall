@@ -1,0 +1,49 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Gist
+ @taxpayer131
+ Sign out
+ Watch 0
+  Star 0
+  Fork 0 andyfiveeleven/BusMall
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki Insights
+Branch: features/chart… Find file Copy pathBusMall/style.css
+636cb3d  28 days ago
+@andyfiveeleven andyfiveeleven added chart functionality
+1 contributor
+RawBlameHistory
+36 lines (30 sloc)  431 Bytes
+h1{
+  background: blue;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+  font-family: helvetica;
+  color: white;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-family: helvetica;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#display{
+  text-align: center;
+}
+
+.survey {
+  width: 300px;
+  margin-left: 40px;
+  border: 5px solid black;
+}
+
+ul {
+  margin-left: 50px;
+}
