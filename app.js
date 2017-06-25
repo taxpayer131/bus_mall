@@ -118,7 +118,7 @@ function buildChart() {
   }
   var ctx = document.getElementById('myChart').getContext('2d');
   var myChart = new Chart(ctx, {
-    type: 'bar',
+    type: 'polar',
     data: {
       labels: chartL,
       datasets: [{

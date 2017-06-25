@@ -19,9 +19,13 @@ p {
   text-align: center;
 }
 
-#chart {
+/*#chart {
   width: 1000px;
   margin: 0 auto;
+}*/
+img {
+  height:  318px;
+  width: 318px;
 }
 
 .survey {
