@@ -15,6 +15,7 @@ function ImageOption(name, path) {
 }
 
 function checkStorage() {
+  //localStorage.clear();
   if (localStorage.length === 0) {
     new ImageOption('R2D2 luggage', 'img/r2d2.jpg');
     new ImageOption('banana slicer', 'img/banana.jpg');
@@ -189,5 +190,5 @@ function eventHandler() {
     buildChart();
   }
 }
-//checkStorage();
+checkStorage();
 render();
